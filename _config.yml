@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://www.kluo.me
-title: 凱文螺 - Make SomeThings
+title: 凱文螺 Do SomeThings
 subtitle: Let's GET WILD.
 author: 凱文螺(Kevin Luo)
 simple_search: http://google.com/search
@@ -93,7 +93,7 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user: xfalcons
+googleplus_user: xfalcons@gmail.com
 googleplus_hidden: false
 
 # Pinboard
@@ -105,8 +105,8 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: kluo
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:

@@ -1,15 +1,21 @@
+@font-face {
+  font-family: "League";
+  src: local("Heiti TC"), local("微軟正黑體"), local("Microsoft JhengHei");
+  /* no unicode-range; default to all characters */
+}
 
 @font-face {
   font-family: "League";
+  unicode-range: U+00-024F;  /* Latin, Latin1 Sup., Ext-A, Ext-B */
   src: url('/font/LeagueGothic.otf');
 }
 
 $blockquote: $type-border !default;
-$sans: "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體", "MingLiU", "標楷體", "DFKai-sb", "Lato", sans-serif;
-$serif: "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體", "MingLiU", "標楷體", "DFKai-sb", "Lato", sans-serif;
+$sans: "Brawler", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "Lato", sans-serif;
+$serif: "Brawler", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "Lato", sans-serif;
 $mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
-$heading-font-family: 'Lato', sans-serif;
-$header-title-font-family: "League", Helvetica, Arial, sans-serif;
+$heading-font-family: "Lato", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", sans-serif;
+$header-title-font-family: "Lato", "League", Helvetica, Arial, sans-serif;
 $header-subtitle-font-family: $heading-font-family !default;
 
 

@@ -1,2 +1,18 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+span.categories_tag {
+	display: block;
+	padding-top: 10px;
+	line-height: 28px;
+	word-wrap: break-word;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+/*
+span.categories_tag a {
+	line-height: 1.5em;
+	padding-right: 5px;
+}
+*/
